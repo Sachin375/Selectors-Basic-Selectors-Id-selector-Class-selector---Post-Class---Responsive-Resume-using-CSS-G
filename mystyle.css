@@ -1,0 +1,106 @@
+.main-content{
+    width: 90%;
+    display: grid;
+    grid-template-columns: 300px 700px;
+    min-height: 1000px;
+}
+.left-section{
+    background-color: black;
+    color: white;
+}
+.right-section{
+    background-color: rgb(247, 201, 201);
+}
+.profile-image{
+    width: 60%;
+    margin: auto;
+    border: 5px solid white;
+    border-radius: 30px;
+    display: block;
+   
+}
+.left-content{
+    padding: 1rem;
+}
+.name{
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: .8rem;
+    letter-spacing: .02px;
+     text-align: center;
+   
+ 
+}
+.designation{
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: .5rem;
+}
+.description{
+    font-size: .75rem;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1rem;
+}
+ul{
+   list-style-type: none;
+   display: flex;
+ 
+}
+.social-media{
+}
+.icon{
+   width: 20px;
+   margin: auto;
+
+}
+.icons{
+    margin-top: 10px;
+    list-style-type: none;
+    
+}
+.gmail ,.contact , .location {
+    width: 20px;
+    margin-right: 10px;
+}
+.skill-name{
+    font-size: 0.65rem;
+    font-weight: 0.65rem;
+    text-align: left;
+    padding-bottom: 0.5rem;
+}
+.skils{
+    text-align: center;
+}
+.progress-bar{
+    border: solid 1px;
+    height: 4px;
+    background-color: white;
+ 
+}
+.right-main-content{
+    padding: 2rem 3rem;
+}
+.right-title{
+   text-transform: uppercase;
+   font-size: 1.2rem;
+   font-weight: 700;
+   padding: .5rem;
+   letter-spacing: 1px;
+
+
+}
+@media only screen and (max-width: 674px) {
+    .main-content {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  td{
+      text-align: center;
+  }
+  th{
+      padding-bottom: 10px;
+  }
