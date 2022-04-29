@@ -103,3 +103,9 @@ ul{
     }
 }
 
+  td{
+      text-align: center;
+  }
+  th{
+      padding-bottom: 10px;
+  }
