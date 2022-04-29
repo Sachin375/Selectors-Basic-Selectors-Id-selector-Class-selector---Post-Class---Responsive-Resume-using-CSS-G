@@ -102,9 +102,4 @@ ul{
         grid-template-columns: repeat(1, 1fr);
     }
 }
-  td{
-      text-align: center;
-  }
-  th{
-      padding-bottom: 10px;
-  }
+
