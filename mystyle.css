@@ -79,16 +79,13 @@
     text-align: center;
     padding: 1rem;
 }
-ul{
-   list-style-type: none;
-   display: flex;
- 
-}
 
-.icon{
-   width: 20px;
-   margin: auto;
 
+.icon {
+    border: 1px solid white;
+    margin: 20px;
+    width: 30px;
+    height: 30px;
 }
 .icons{
     margin-top: 10px;
