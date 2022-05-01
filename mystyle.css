@@ -18,7 +18,7 @@
     grid-column: span 1;
     font-size: large;
     font-weight: 500;
-    background-color: rgb(0, 102, 133);
+    background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
 }
 
@@ -49,7 +49,7 @@
 
 .profile-image img {
     height: 100px;
-    width: auto;
+    width: 100%;
     object-fit: fill;
 }
 
@@ -82,7 +82,7 @@
 }
 
 .icon {
-    border: 1px solid white;
+    border: none;
     margin: 20px;
     width: 30px;
     height: 30px;
@@ -105,6 +105,7 @@
 .progress-bar {
     border: 1px white solid;
     height: 4px;
+    background-color: rgb(255, 255, 255);
 }
 
 .right-main-content {
@@ -115,8 +116,8 @@
     grid-column: span 1 / span 2;
     font-size: large;
     font-weight: 500;
-    background-color: azure;
-    color: rgb(0, 102, 133);
+    background-color: rgb(250, 177, 157);
+    color: rgb(0, 0, 0);
 }
 
 .right-title {
@@ -128,6 +129,7 @@
 }
 .gmail, .contact, .location{
     width: 10%;
+    
 }
 
 @media screen and (max-width: 673px) {
